@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "pass": 89,
+    "fail": 5,
+    "warn": 0
+  },
+  "failures": [
+    {
+      "name": "SAM uterus_0060: instance_map is 256x256 int",
+      "detail": ""
+    },
+    {
+      "name": "SAM breast_0079: instance_map is 256x256 int",
+      "detail": ""
+    },
+    {
+      "name": "SAM adrenal_gland_0102: instance_map is 256x256 int",
+      "detail": ""
+    },
+    {
+      "name": "SAM breast_0749: instance_map is 256x256 int",
+      "detail": ""
+    },
+    {
+      "name": "SAM breast_0626: instance_map is 256x256 int",
+      "detail": ""
+    }
+  ],
+  "warnings": [],
+  "reproducibility": {
+    "bootstrap_runs": [
+      [
+        42,
+        0.6531304669046986,
+        0.42985534581803336,
+        0.7984010382452459,
+        0.7128882609071693
+      ],
+      [
+        123,
+        0.6523108799336579,
+        0.4304654132187908,
+        0.7982968530683956,
+        0.713274316942177
+      ],
+      [
+        7777,
+        0.6520676135005865,
+        0.4283538713441983,
+        0.7985017624023101,
+        0.714418622685964
+      ]
+    ],
+    "std_across_seeds": {
+      "HN_bPQ": 0.00045467433023740265,
+      "HN_mPQ": 0.000887269025794124,
+      "SAM_bPQ": 8.365786276183038e-05,
+      "SAM_mPQ": 0.000649827504584064
+    }
+  }
+}
