@@ -1,10 +1,10 @@
 # HoVer-Net vs CellViT-SAM-H on PanNuke fold 3
 
-An independent benchmark of two pretrained nuclei instance segmentation models — a CNN (HoVer-Net) and a Vision Transformer (CellViT-SAM-H) — on the held-out third fold of the PanNuke dataset. Final-year project, School of Computing, University of Leeds, 2026.
+An independent benchmark of two pretrained nuclei instance segmentation model - a CNN (HoVer-Net) and a Vision Transformer (CellViT-SAM-H) - on the held-out third fold of the PanNuke dataset. Final-year project, School of Computing, University of Leeds, 2026.
 
 ## Headline result
 
-On all 2,722 PanNuke fold-3 images (66,654 ground-truth nuclei across 19 tissues and 5 classes), CellViT-SAM-H outperforms HoVer-Net on every aggregate metric, every individual tissue (19 of 19), and every nuclei class (5 of 5). The 95% bootstrap confidence intervals do not overlap on either metric. The HoVer-Net evaluation independently reproduces Graham et al. (2019) to within 0.001 bPQ and 0.012 mPQ, confirming the metric pipeline.
+CellViT-SAM-H outperforms HoVer-Net on every aggregate metric. This is for all 2,722 PanNuke fold-3 images (66,654 ground-truth nuclei across 19 tissues and 5 classes, and every individual tissue (19 of 19) and every nuclei class (5 of 5). The 95% bootstrap confidence intervals do not overlap on either metric. The HoVer-Net evaluation independently reproduces Graham et al. (2019) to within 0.001 bPQ and 0.012 mPQ, confirming the metric pipeline.
 
 | Metric | HoVer-Net | CellViT-SAM-H | Delta |
 | :--- | ---: | ---: | ---: |
