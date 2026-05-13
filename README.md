@@ -62,10 +62,21 @@ CellViT supplies the `CellViTSAM` model class. PanNuke-metrics is the official b
 
 Both checkpoints are CC BY-NC-SA 4.0 and are not redistributed here.
 
-| File | Source | Size |
-| :--- | :--- | ---: |
-| HoVer-Net (PanNuke) | https://tiatoolbox.dcs.warwick.ac.uk/models/seg/hovernet_fast-pannuke.pth | 145 MB |
-| CellViT-SAM-H (PanNuke) | https://github.com/TIO-IKIM/CellViT (see "Pretrained Models" section; Google Drive link) | 2.7 GB |
+#### HoVer-Net (PanNuke), 145 MB
+
+The recommended way is via the TIAToolbox API, which downloads the weights into a local cache and is robust to upstream URL changes:
+
+```bash
+source venv_hn/bin/activate
+python -c "from tiatoolbox.models.architecture import fetch_pretrained_weights; fetch_pretrained_weights('hovernet_fast-pannuke', './hovernet_fast-pannuke.pth')"
+deactivate
+```
+
+For an overview of all pretrained models available through TIAToolbox, see https://tia-toolbox.readthedocs.io/en/latest/pretrained.html
+
+#### CellViT-SAM-H (PanNuke), 2.7 GB
+
+Visit https://github.com/TIO-IKIM/CellViT and follow the "Pretrained Models" section. The CellViT-SAM-H checkpoint is hosted on Google Drive; the CellViT README provides the current link.
 
 ### Step 5. Run the pipeline
 
