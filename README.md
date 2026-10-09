@@ -1,6 +1,6 @@
 # HoVer-Net vs CellViT-SAM-H on PanNuke fold 3
 
-An independent benchmark of two pretrained nuclei instance segmentation model - a CNN (HoVer-Net) and a Vision Transformer (CellViT-SAM-H) - on the held-out third fold of the PanNuke dataset. Final-year project, School of Computing, University of Leeds, 2026.
+An independent benchmark of two pretrained nuclei instance segmentation model - a CNN (HoVer-Net) and a Vision Transformer (CellViT-SAM-H) - on the held-out third fold of the PanNuke dataset. Third-year coursework, School of Computing, University of Leeds, 2026.
 
 ## Headline result
 
